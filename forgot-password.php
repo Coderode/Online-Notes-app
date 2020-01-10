@@ -62,8 +62,8 @@ if(!$result){
             //Send email with link to resetpassword.php with user id and activation code
 
 $message = "Please click on this link to reset your password:\n\n";
-$message .= "https://www.swing.offyoucode.co.uk/projects/onlinenoteapp/resetpassword.php?user_id=$user_id&key=$key";
-if(mail($email, 'Reset your password', $message, 'From:'.'sk9971krishna@gmail.com')){
+$message .= "**please enter page address with the folder where this file isplaced **/resetpassword.php?user_id=$user_id&key=$key";
+if(mail($email, 'Reset your password', $message, 'From:'.'**enter your email here**')){
         //If email sent successfully
                 //print success message
        echo "<div class='alert alert-success'>An email has been sent to $email. Please click on the link to reset your password.</div>";

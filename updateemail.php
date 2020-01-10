@@ -40,8 +40,8 @@ if(!$result){
 }else{
     //send email with link to activatenewemail.php with current email, new email and activation code
     $message = "Please click on this link prove that you own this email:\n\n";
-    $message .= "https://www.swing.offyoucode.co.uk/projects/onlinenoteapp/activatenewemail.php?email=" . urlencode($email) . "&newemail=" . urlencode($newemail) . "&key=$activationKey";
-    if(mail($newemail, 'Email Update for you Online Notes App', $message, 'From:'.'sk9971krishna@gmail.com')){
+    $message .= "**page address where this file is stored **/activatenewemail.php?email=" . urlencode($email) . "&newemail=" . urlencode($newemail) . "&key=$activationKey";
+    if(mail($newemail, 'Email Update for you Online Notes App', $message, 'From:'.'**enter your email **')){
            echo "<div class='alert alert-success'>An email has been sent to $newemail. Please click on the link to prove you own that email address.</div>";
     }
     

@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include('connection.php');
 //If the user is not logged in & rememberme cookie exists
 if(!isset($_SESSION['user_id']) && !empty($_COOKIE['rememberme'])){
            //array_key_exists('user_id', $_SESSION)

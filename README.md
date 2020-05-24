@@ -9,6 +9,5 @@ Requirements : Bootstrap 3, php
 create user, login , logout, create, delete and modify notes and modify user details also
 Email verification etc. 
 ```
-```
-Link Of Online Deployment : https://swing.offyoucode.co.uk/projects/onlinenoteapp/
-```
+
+Link Of Online Deployment : (https://swing.offyoucode.co.uk/projects/onlinenoteapp/)
